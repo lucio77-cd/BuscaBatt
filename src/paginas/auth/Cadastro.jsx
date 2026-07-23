@@ -1,4 +1,3 @@
-// src/paginas/auth/Cadastro.jsx
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { cadastrar } from "../../firebase/auth";
@@ -7,7 +6,7 @@ import { criarUsuario } from "../../servicos/usuarioService";
 export default function Cadastro() {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
-  const [role, setRole] = useState("cliente"); // fixo pelo select, nunca editável depois
+  const [role, setRole] = useState("cliente");
   const [erro, setErro] = useState("");
   const navegar = useNavigate();
 
