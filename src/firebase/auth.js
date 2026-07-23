@@ -1,4 +1,3 @@
-// src/firebase/auth.js
 import {
   getAuth,
   signInWithEmailAndPassword,
