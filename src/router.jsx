@@ -1,4 +1,3 @@
-// src/router.jsx
 import { createBrowserRouter } from "react-router-dom";
 import Login from "./paginas/auth/Login";
 import Cadastro from "./paginas/auth/Cadastro";
