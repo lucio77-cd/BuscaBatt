@@ -1,4 +1,3 @@
-// src/main.jsx
 import { createRoot } from "react-dom/client";
 import { AuthProvider } from "./contextos/AuthContext";
 import App from "./App";
