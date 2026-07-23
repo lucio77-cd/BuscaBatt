@@ -1,4 +1,3 @@
-// src/paginas/cliente/Home.jsx
 import { useAuth } from "../../hooks/useAuth";
 import { logout } from "../../firebase/auth";
 
