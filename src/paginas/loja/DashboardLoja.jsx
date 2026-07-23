@@ -1,4 +1,3 @@
-// src/paginas/loja/DashboardLoja.jsx
 import { useAuth } from "../../hooks/useAuth";
 import { logout } from "../../firebase/auth";
 
